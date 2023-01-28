@@ -12,8 +12,8 @@ const Card = (props) => {
             <img src={props.coverImg} alt="" className="card-img"/>
             <div className="card-stats">
                 <img className="card-star" src="./images/star.png" alt="" />
-                <span>{props.rating}</span>
-                <span className="gray">{ props.reviewCount && `(${props.reviewCount})` } • </span>
+                <span>{props.stats.rating}</span>
+                <span className="gray">{ props.stats.reviewCount && `(${props.stats.reviewCount})` } • </span>
                 <span className="gray">{props.location}</span>
             </div>
             <p>{props.title}</p>
