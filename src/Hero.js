@@ -1,10 +1,10 @@
-const Hero = () => {
+const Hero = (props) => {
     return ( 
         <section className="hero">
-            <img src="./images/hero.png" alt="" className="hero-img" />
+            <img src={props.img} alt="" className="hero-img" />
             <div className="hero-text">
-                <h1>Online Experience</h1>
-                <p className="hero-paragraph">Join unique interactive activities led by one-of-a-kind hosts-all without leaving home.</p>
+                <h1>{props.h1}</h1>
+                <p className="hero-paragraph">{props.p}</p>
             </div>
         </section>
      );

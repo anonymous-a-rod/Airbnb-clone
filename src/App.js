@@ -22,7 +22,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      <Hero 
+        img="./images/hero.png"
+        h1="Online Experience"
+        p="Join unique interactive activities led by one-of-a-kind hosts-all without leaving home."
+      />
       <div className='container'>
         {cards}
       </div>
