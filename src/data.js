@@ -128,6 +128,58 @@ const data = [
         },
         location: "Online",
         openSpots: 3,
+    },
+    {
+        id: 11,
+        title: "Best Sunset in the World",
+        description: "You will be met at the Dock Gate by someone who will take you to our boat and brief you on safety and information about the boat and the tour. Our tour has recieved the Clean & Safe certification from the Portuguese Turism Board!",
+        price: 32,
+        coverImg: "images/sailing.webp",
+        stats: {
+            rating: 4.97,
+            reviewCount: 1220
+        },
+        location: "Portugal",
+        openSpots: 13,
+    },
+    {
+        id: 12,
+        title: "Plan A Trip To Nashville With a Local Insider",
+        description: "Hi! I'm Christy, a Nashville Native and insider, Airbnb Experience Host with over 10k guests!",
+        price: 12,
+        coverImg: "images/nashville.webp",
+        stats: {
+            rating: 4.98,
+            reviewCount: 42
+        },
+        location: "Online",
+        openSpots: 3,
+    },
+    {
+        id: 13,
+        title: "Experience Luxury Desert Safari in Dubai",
+        description: "Join us on a Adventure Desert Safari In Red Dunes and we will make sure this day to be the best day of your life in Dubai. We have been doing desert safari from past 12 years and we are very well known for our service quality.",
+        price: 33,
+        coverImg: "images/desert.webp",
+        stats: {
+            rating: 4.97,
+            reviewCount: 969
+        },
+        location: "Dubai",
+        openSpots: 9,
+    },
+    {
+        id: 14,
+        title: "A Sandwich Masterclass with a Pro",
+        description: "Create a delicious New York style sandwich together with The Sandwich Squad during this fun & interactive cooking class.",
+        price: 12,
+        coverImg: "images/sandwich.webp",
+        stats: {
+            rating: 4.98,
+            reviewCount: 1322
+        },
+        location: "Online",
+        openSpots: 30,
     }
 ]
 
