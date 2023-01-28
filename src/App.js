@@ -27,7 +27,7 @@ function App() {
         h1="Online Experience"
         p="Join unique interactive activities led by one-of-a-kind hosts-all without leaving home."
       />
-      <div className='container'>
+      <div className='container-cards'>
         {cards}
       </div>
     </div>
