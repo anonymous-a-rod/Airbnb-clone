@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+h1 {
+  font-size: 36px;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+span{
+  margin: 1px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+
+/* NAV SECTION START */
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  max-width: 100px;
+}
+
+/* NAV SECTION END */
+
+
+
+/* HERO SECTION START */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  margin-top: 30px;
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.hero-text {
+  max-width: 340px;
+  margin: 20px 0;
+}
+
+.hero-paragraph {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* HERO SECTION END */
+
+/* CARD SECTION */
+
+.card {
+  width: 176px;
+  font-size: 12px;
+  margin: 9px;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  height: 14px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
